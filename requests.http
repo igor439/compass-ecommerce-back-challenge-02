@@ -1,0 +1,34 @@
+#Test
+
+GET http://localhost:3000/products?page=1
+
+
+
+###
+GET http://localhost:3000/products/filter?category=CHAIR&page=1&pageSize=16
+
+
+
+###
+
+GET http://localhost:3000/products/filter?page=1&pageSize=16
+
+
+###
+
+GET http://localhost:3000/products/filters
+
+
+###
+
+GET http://localhost:3000/products/getProducts?category1=COUCH&category2=LAMPSHADE&category3=CHAIR&page=1&pageSize=8
+
+###
+
+GET http://localhost:3000/products/getProducts?category3=CHAIR&page=1&pageSize=8
+
+
+
+
+
+
